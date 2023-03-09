@@ -87,6 +87,7 @@ Typically this can be done by creating a task similar to the following:
   shell: >
      ./setup.sh -i <inventory-file> #need to validate this
   register: setup_results
+  delegate_to: builder_inventory_group[0]
     
 ```
 
