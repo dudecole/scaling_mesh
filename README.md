@@ -71,7 +71,7 @@ peers=execution_nodes
 110-addr.tatu.home 
 
 [instance_group_atc]
-110-addr.tatu.home 
+112-addr.tatu.home 
 ```
 
 ### Running the Setup Bundle
