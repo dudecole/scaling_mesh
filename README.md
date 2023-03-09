@@ -1,7 +1,20 @@
 <!-- 
 TODO: 
 - Create YAML format of the inventory
-- 
+- add in the receptor - python pip package and docs
+    - get ports and basics for additional developers
+- Diagram - todo's
+    - add additional URLs for 
+- Share out the link for lucid charts and the arch drawing
+- Roberto: 
+    - when running the 'restore' from the setup.sh, the AAP services didn't start, 
+        - check after adding additional nodes
+        - should work with regular installations
+            - could just be when doing the restore
+
+    https://lucid.app/lucidchart/7087a2d9-0439-4063-88a5-bab05afdc169/edit?view_items=7e6D5nUNraVQ&invitationId=inv_295a3c6a-2394-4b16-83bb-2b6801d377eb
+
+  
 
 -->
 
