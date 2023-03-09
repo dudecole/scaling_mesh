@@ -1,7 +1,8 @@
 <!-- 
 TODO: 
 - Create YAML format of the inventory
-- 
+- what is the timeframe of adding new nodes (20-30 min)
+    - The proxy and setup.sh slowness will need to be resolved first.
 
 -->
 
