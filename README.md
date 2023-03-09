@@ -1,8 +1,9 @@
 <!-- 
 TODO: 
-- Create YAML format of the inventory
+
 - add in the receptor - python pip package and docs
     - get ports and basics for additional developers
+    - Create YAML format of the inventory
 - Diagram - todo's
     - add additional URLs for 
 - Share out the link for lucid charts and the arch drawing
@@ -14,7 +15,9 @@ TODO:
 
     https://lucid.app/lucidchart/7087a2d9-0439-4063-88a5-bab05afdc169/edit?view_items=7e6D5nUNraVQ&invitationId=inv_295a3c6a-2394-4b16-83bb-2b6801d377eb
 
-  
+- what is the timeframe of adding new nodes (20-30 min)
+    - The proxy and setup.sh slowness will need to be resolved first.
+
 
 -->
 
@@ -84,7 +87,7 @@ peers=execution_nodes
 110-addr.tatu.home 
 
 [instance_group_atc]
-110-addr.tatu.home 
+112-addr.tatu.home 
 ```
 
 ### Running the Setup Bundle
@@ -100,6 +103,7 @@ Typically this can be done by creating a task similar to the following:
   shell: >
      ./setup.sh -i <inventory-file> #need to validate this
   register: setup_results
+  delegate_to: builder_inventory_group[0]
     
 ```
 
